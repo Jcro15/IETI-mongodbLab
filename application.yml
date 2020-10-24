@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: "mongodb+srv://admin:Admin123@cluster0.n7msp.mongodb.net/ietilab?retryWrites=true&w=majority"
