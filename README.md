@@ -177,3 +177,7 @@ Create a Spring Boot Application that connects with MongoDB.
     * Todos that contains a description with a length greater than 30 characters        
 
 8. Implement the queries of the previous step using *derived query methods* in your repository interface. Is it possible to implement all of them?
+
+    with the proposed object configuration it is not possible to perform the third query because it would imply the
+     simulation of a join and a grouping in terms of sql , to make this query possible it is necessary that the tasks
+      are saved as a list inside the user
